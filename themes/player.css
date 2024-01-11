@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'TechnoHideo';
+    src: url(../source/TechnoHideo.ttf);
+}
+@font-face {
+    font-family: 'cuyabra-Regular.ttf';
+    src: url(../source/cuyabra-Regular.ttf);
+}
+
+body {
+    background-image: url(https://smamashin.ru/assets/images/raiden.gif);
+    background-attachment: fixed;
+    background-color: rgba(5, 5, 5, 0.866);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'TechnoHideo';
+}
+header {
+    margin-top: 0;
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+    margin-bottom: 10%;
+}
+h3 {
+    color: #fff;
+    font-size: 24px;
+    box-shadow: 0 0 6vh #fff;
+}
+.btn-back {
+    text-align: center;
+    margin: 3%;
+    text-decoration: none;
+    color: #fff;
+    border: black 1.5px solid;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.573);
+    padding: 15px;
+    font-size: 34px;
+    width: 7%;
+}
+
+#player {
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 10%;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Stepan Mamashin/S-Mamashin">
+    <link rel="shortcut icon" href="../assets/images/M.png" type="image/x-icon">
+    <link rel="stylesheet" href="./themes/calc.css">
+    <title>S-Mamashin</title>
+</head>
+
+<body>
+<header>
+    <a class="btn-back" href="../">back</a>
+  </header>
+      <div class="row">
+        <input class="input-calc" id="output" type="text">
+     </div>
+      <div class="keyboard">
+        <div class="row">
+            <span onclick="OnClickNumber('(')">(</span>
+            <span onclick="OnClickNumber(')')">)</span>
+            <span onclick="OnClickNumber('%')">%</span>
+            <span onclick="OnClickClear()">C</span>
+        </div>
+        <div class="row">
+            <span onclick="OnClickNumber(7)">7</span>
+            <span onclick="OnClickNumber(8)">8</span>
+            <span onclick="OnClickNumber(9)">9</span>
+            <span onclick="OnClickNumber('/')">/</span>
+        </div>
+        <div class="row">
+            <span onclick="OnClickNumber(4)">4</span>
+            <span onclick="OnClickNumber(5)">5</span>
+            <span onclick="OnClickNumber(6)">6</span>
+            <span onclick="OnClickNumber('*')">*</span>
+        </div>
+        <div class="row">
+            <span onclick="OnClickNumber(1)">1</span>
+            <span onclick="OnClickNumber(2)">2</span>
+            <span onclick="OnClickNumber(3)">3</span>
+            <span onclick="OnClickNumber('-')">-</span>
+        </div>
+        <div class="row">
+            <span onclick="OnClickNumber(0)">0</span>
+            <span onclick="OnClickNumber('.')">.</span>
+            <span onclick="OnclickCalculate()">=</span>
+            <span onclick="OnClickNumber('+')">+</span>
+        </div>	
+    </div>
+    <p class="warning">
+        The most common calculator. <br>
+        Metal Gear Edition <br>
+        Page developed &copy; <a href="" class="SMamashin">S-Mamashin</a> 2024
+        </p>
+    </body>
+    <script src="./js/Calc.js"></script>
+</html>
